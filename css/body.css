@@ -1,0 +1,40 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    
+}
+
+.headerBlockMain {
+    border-radius: 0;
+    text-indent: 20%;
+    padding-top: 120px;
+}
+
+.blurb {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.headerLine {
+    text-indent: 20%;
+}
+
+.headerBlock {
+    border-radius: 0;
+    padding-top: 120px;
+}
+
+#homeCarousel {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+p {
+    font-size: 20px;
+}

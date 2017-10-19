@@ -1,0 +1,30 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    
+}
+
+.headerBlockAbout {
+    border-radius: 0;
+    background-color: #000;
+    color: white;
+    text-indent: 20%;
+    padding-top: 120px;
+}
+
+.blurb {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.headerLine {
+    text-indent: 20%;
+}
+
+hr {
+    border-color: inherit;
+    color: rgb(255, 255, 255);
+}

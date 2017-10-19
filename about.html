@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/imagesAndVideo.css">
+    <link rel="stylesheet" href="css/coloring.css">
+    <title>About</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="home.html">Grace Hopper</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="earlylife.html">Early Life</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="navy.html">Navy Service</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="legacy.html">Legacy</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="about.html">About</a>
+            </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="jumbotron headerBlockAbout">
+      <h1 class="display-3">About</h1>
+      <hr>
+      <p class="lead">How this page was assembled</p>
+    </div>
+
+    <div class="container blurb">
+        <p>This page was created using HTML and CSS. I tried to keep structural and stylistic CSS separate, resulting in my "body.css" and "coloring.css" files. Images and video had to be tweaked often to fit within my design goal, so they went into a separate file as well, to make jumping between "imagesAndVideo.css" and my HTML pages simpler.</p>
+        <p>This final HTML page has a separate CSS file, where I was able to take what I'd worked with and liked about my previous pages, and distil them down into one CSS file with new coloring. Given more time to experiment, this could be cut down to 1 or 2 files with something like Sass's variables and translation.</p>
+        <p>This project also utilized Bootstrap, with only a few minor tweaks to the navbar and the styling of my jumbotrons, removing the rounded corners of the Bootstrap 4 Beta version I'm using, bringing them closer to Bootstrap 3's squared design.</p>
+        <p>Finally, this was my first project completed with VS Code, rather than Sublime. The add ons are fantastic to work with, reminding me of NodeJS packages, where trying to customize Sublime leads to the headache of navigating a massive JSON file.</p>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  </body>
+</html>
